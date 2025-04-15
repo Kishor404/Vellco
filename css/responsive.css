@@ -1,0 +1,1295 @@
+/*
+Theme Name: Industing
+Theme URI: http://themewar.com/html/industing
+Author: themewar
+Author URI: http://themewar.com/
+Description: Industing - Industry & Factory Business HTML5 Template
+Version: 1.0
+License:
+License URI:
+*/
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Responsive For Extra large Device
+2. Responsive For Extra large Device 2
+3. Desktop Device
+4. Responsive For Tab Device
+5. Responsive For Mobile & Tab
+6. Responsive For Mobile Device
+*/
+/*------------------------------------------------------------------------------------
+/ 1. Responsive For Extra large Device
+--------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width:1899px){
+    .mrm110px{
+        margin-right: -100px;
+    }
+    .funfactSection .icon_box_02{
+        padding-right: 40px;
+    }
+}
+/*------------------------------------------------------------------------------------
+/ 2. Responsive For Extra large Device 2
+--------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width:1600px){
+    .funfactSection .icon_box_02{
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .funfactSection .pdl115{
+        padding-left: 30px;
+        padding-bottom: 82px;
+    }
+    .funfactSection .sec_title.with_bar{
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .funfactSection .sub_title{
+        margin-bottom: 10px;
+    }
+    .whyChooseUsContent{
+        padding-left: 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding-right: 20%;
+    }
+    .whyChooseUsContent .sec_title{
+        font-size: 60px;
+        line-height: 66px;
+    }
+    .skillHolders{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .sec_title br{
+        display: none;
+    }
+    .singleSkill{
+        margin-bottom: 30px;
+    }
+    .folioHover_03 h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .testimonial_item{
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    .ti_author h4{
+        font-size: 20px;
+    }
+    .featureSection2{
+        margin-top: -120px;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------
+/ 3. Desktop Device
+--------------------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .logo_02 img{
+        width: 100%;
+        height: auto;
+    }
+    .header_02 .mainmenu{
+        text-align: right !important;
+    }
+    .header_02 .ind_btn_2{
+        display: none;
+    }
+    .logo_02{
+        padding: 37px 0 36px;
+    }
+    .mainmenu ul li{
+        margin-right: 20px;
+    }
+    .mainmenu > ul > li:last-child ul.sub_menu, .mainmenu > ul > li:nth-last-child(2) ul.sub_menu{
+        left: auto;
+        right: 0;
+    }
+    .mainmenu > ul > li:nth-last-child(1) > ul.sub_menu ul.sub_menu, .mainmenu > ul > li:nth-last-child(2) > ul.sub_menu ul.sub_menu,
+    .mainmenu > ul > li:nth-last-child(1) > ul.sub_menu ul.sub_menu, .mainmenu > ul > li:nth-child(4) > ul.sub_menu ul.sub_menu,
+    .mainmenu > ul > li:nth-last-child(3) > ul.sub_menu ul.sub_menu, .mainmenu > ul > li:nth-last-child(4) > ul.sub_menu ul.sub_menu{
+        left: auto;
+        right: 100%;
+    }
+    .nav_bar .right_bgs{
+        height: 70px;
+    }
+    .about_us_content{
+        padding-left: 25px;
+        padding-top: 40px;
+    }
+    .sec_title{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .about_us_content .sec_title{
+        font-size: 55px;
+        line-height: 66px;
+    }
+    .icon_box_01 {
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .icon_box_01 h3{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .funfactSection .pdl115{
+        padding-left: 15px;
+    }
+    .funfactSection .mrm110px{
+        margin-right: -15px;
+    }
+    .testimonial_item2:after{
+        display: none;
+    }
+    .testimonial_item2{
+        padding-right: 0;
+    }
+    .testimonialSection2 .imgDiv2{
+        padding-top: 84px;
+    }
+    .blogItem2{
+        padding: 39px 15px 38px 15px;
+    }
+    .bIcollapse .bi_meta span {
+        margin-right: 10px;
+    }
+    .footer_02 .widget{
+        margin-bottom: 40px;
+    }
+    .icon_box_03{
+        padding-left: 20px;
+    }
+    .whyChooseUsContent{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .whyChooseUsContent .sec_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .testimonial_item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ti_author h4{
+        font-size: 22px;
+    }
+    .bi_details{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .pdl45,
+    .pdl65 {
+        padding-left: 15px;
+    }
+    .fof_contents h2{
+        font-size: 50px;
+        line-height: 54px;
+    }
+    .history_box h3{
+        font-size: 21px;
+    }
+    .featureSlider{
+        margin: 0;
+    }
+    .cta_left_02 h2{
+        font-size: 55px;
+        line-height: 66px;
+    }
+    .skillHolders{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .sec_title br{
+        display: none;
+    }
+    .aboutImg .i2{
+        margin-left: 0;
+        margin-top: -120px;
+    }
+    .aboutDescs{
+        padding-left: 30px;
+    }
+    .ib5_inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .formSections{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .newsDetails{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .newsDetails h2.ndTitle{
+        font-size: 40px;
+    }
+    .sidebar_2.inLeft,
+    .sidebar_2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .instafeeds a{
+        margin-right: 15px;
+    }
+    .sb_footer span{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .sb_footer span i{
+        margin-right: 6px;
+    }
+    .folioHover_03{
+        width: calc(100% - 60px);
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .folioHover_03 h2{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .proj_details.rightPos{
+        padding-left: 0;
+    }
+    .proj_details.leftPos{
+        padding-right: 0;
+    }
+    .style2 .serviceDetails{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar_1 .widget .widget_title{
+        padding-left: 20px;
+        font-size: 32px;
+    }
+    .sidebar_1 .widget ul li{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .hqw_content,
+    .allLatestWorks,
+    .allBrouchers{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .entry_title{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .sda_tags .icon_box_04 {
+        margin-right: 20px;
+    }
+    .sda_tags .icon_box_04:last-of-type {
+        margin-right: 0px;
+    }
+    .product_btn a:last-of-type{
+        margin-right: 0;
+    }
+    .product_decp{
+        padding-left: 0;
+    }
+    .straceImg, .straceImg2, .stretchBGDiv, .imgCarousel, .imgCarousel .carousel-inner, .imgCarousel .carousel-item{
+        min-height: 100vw;
+    }
+    .testimonialSection,
+    .testimonialSection2{
+        overflow: hidden;
+        width: 100vw;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 4. Responsive For Tab Device
+--------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+    .logo_02 img{
+        width: auto;
+        height: auto;
+    }
+    .header_02 .ind_btn_2{
+        display: none;
+    }
+    .topbar_left .info_element{
+        margin-right: 15px;
+    }
+    .icon_box_01{
+        margin-bottom: 30px;
+    }
+    .abc_left{
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .serviceDetails{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .text-right.leftInMobile{
+        text-align: left !important;
+    }
+    .funfactSection .pdl115{
+        padding-left: 15px;
+    }
+    .funfactSection .mrm110px{
+        margin-right: -15px;
+    }
+    .testimonial_item2:after{
+        display: none;
+    }
+    .imgDiv2.blockInMobile img{
+        width: 100%;
+        height: auto;
+    }
+    .blogItem3{
+        margin-bottom: 30px;
+    }
+    .footer_02 .widget{
+        margin-bottom: 40px;
+    }
+    .footer_02 .widget.pdl58, .footer_02 .widget.pdl20{
+        padding-left: 0;
+    }
+    #backtotop{
+        right: 20px;
+    }
+    .folioHover_03{
+        width: calc(100% - 60px);
+        padding-right: 15px;
+    }
+    .folioHover_03 h2{
+        font-size: 50px;
+        line-height: 54px;
+    }
+    .product_btn a:last-of-type{
+        margin-right: 0;
+    }
+    .results{
+        display: none;
+    }
+    .straceImg, .straceImg2, .video_02, .stretchBGDiv, .imgCarousel, .imgCarousel .carousel-inner, .imgCarousel .carousel-item{
+        min-height: 100vw;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------
+/ 5. Responsive For Mobile & Tab
+--------------------------------------------------------------------------------------*/
+@media (max-width: 991px){
+    .search_element form{
+        position: relative;
+    }
+    .topbar:before{
+        width: 31%;
+    }
+    .logo{
+        padding-left: 15px;
+    }
+    .top_social{
+        padding: 0 0;
+        top: -30px;
+        z-index: 4;
+    }
+    .top_social a{
+        margin-left: 12px;
+    }
+    .nav_bar .right_bgs{
+        width: 25%;
+        height: 100%;
+    }
+    .nav_bar .mobileMenuBar{
+        text-align: left;
+        width: 100%;
+        margin: 14px 0 0;
+        z-index: 5;
+        position: relative;
+    }
+    .nav_bar .mainmenu{
+        position: absolute;
+        left: 0;
+        top: 78px;
+        width: 100%;
+        z-index: 99;
+    }
+    .info_element{
+        margin-right: 15px;
+        padding-left: 20px;
+    }
+    .search_element{
+        margin-right: 5px;
+    }
+    .info_element h5{
+        font-size: 16px;
+    }
+    .info_element p{
+        font-size: 12px;
+    }
+    .logo_02{
+        float: left;
+        width: 50%;
+    }
+    .mobileMenuBar{
+        float: right;
+        width: 50%;
+        text-align: right;
+        margin: 31px 0;
+        display: block;
+    }
+    .mobileMenuBar a{
+        height: 50px;
+        background: #fcdb03;
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 0;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #3F51B5;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+        padding: 0 20px;
+    }
+    .mobileMenuBar a i{
+        margin-left: 10px;
+    }
+    .mainmenu{
+        position: relative;
+        width: 100%;
+        background: #fcdb03;
+        display: none;
+        margin-bottom: 15px;
+    }
+    .mainmenu ul li{
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        text-align: left;
+    }
+    .nav_bar .mainmenu > ul > li,
+    .header_02 .mainmenu > ul > li{
+        padding: 0;
+    }
+    .mainmenu ul li a{
+        color: #3F51B5;
+        background: transparent;
+        -webkit-text-fill-color: #3F51B5;
+        padding: 20px 15px;
+    }
+    .mainmenu ul.sub_menu{
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        background: #06163a;
+        width: 100%;
+        padding: 0;
+        top: 100%;
+        display: none;
+
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+    .mainmenu ul.sub_menu li{
+        padding: 0 0;
+    }
+    .mainmenu ul.sub_menu li a{
+        border-bottom: none;
+        padding: 20px 30px;
+    }
+    .mainmenu ul.sub_menu li ul.sub_menu{
+        left: 0;
+        background: #000;
+    }
+    .mainmenu ul.sub_menu li ul.sub_menu li a{
+        padding-left: 45px;
+    }
+    .mainmenu .submenu_toggler{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        height: 53px;
+        background: rgba(255, 255, 255, .1);
+        line-height: 53px;
+        text-align: center;
+        color: #FFF;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .mainmenu .sub_menu .submenu_toggler{
+        background: rgba(255, 255, 255, .4);
+    }
+    .mainmenu .submenu_toggler:hover, .mainmenu .submenu_toggler.active-span{
+        color: #06163a;
+    }
+    .mrm15{
+        margin-right: 0;
+    }
+    .about_us_content{
+        padding-left: 0;
+    }
+    .sec_title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .filterMenu ul li{
+        margin-right: 13px;
+    }
+    .funfactSection .icon_box_02{
+        padding-right: 0;
+    }
+    .icon_box_03{
+        padding-left: 20px;
+    }
+    .whyChooseUsContent{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .whyChooseUsContent .sec_title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .testimonialSliderHolder{
+        margin-top: 50px;
+    }
+    .testimonial_item{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bi_details{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .bi_meta span{
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    .blogItem2 h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .blogItem2{
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer_01 .widget{
+        margin-bottom: 40px;
+    }
+    .pdl65{
+        padding-left: 15px;
+    }
+    .serviceDetails{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fof_contents{
+        padding-top: 30px;
+    }
+    .fof_contents h2{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .aboutImg .i2{
+        margin-left: 0;
+    }
+    .aboutImg{
+        padding-right: 80px;
+    }
+    .yearsofexp{
+        right: 0;
+    }
+    .aboutDescs{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .skillHolders{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .sec_title br{
+        display: none;
+    }
+    .cta_left_02 h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .history_box{
+        width: 50%;
+    }
+    .woocommerce-checkout-review-order{
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+    .cart_table tbody tr td.product-thumbnail .thumbimgs{
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+    .cart_table tbody tr td.product-thumbnail{
+        width: 80px;
+        padding-left: 0px;
+    }
+    .cart_table tbody tr td.product-subtotal,
+    .cart_table thead tr th.product-subtotal{
+        padding-left: 40px;
+    }
+    .cart_table thead tr th.product-price,
+    .cart_table tbody tr td.product-price{
+        padding-left: 20px;
+    }
+    .cart_table tbody tr td.actions .coupon_submit{
+        padding: 0 35px;
+    }
+    .update_cart{
+        padding: 0 35px;
+    }
+    .cart_totals table tr th{
+        width: 200px;
+    }
+    .gmap iframe{
+        height: 500px;
+    }
+    .icon_box_05.ib5_left .ib5_inner{
+        padding-left: 80px;
+        padding-right: 10px;
+    }
+    .mb45{
+        margin-bottom: 20px;
+    }
+    .pdb90 .pdl45{
+        padding-left: 15px;
+    }
+    .icon_box_05{
+        margin-bottom: 30px;
+    }
+    .formSections{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sidebar_2{
+        margin-top: 100px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .sidebar_2.inLeft{
+        margin-top: 0;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .sidebar_2 .widget{
+        margin-bottom: 80px;
+    }
+    .proj_details.rightPos{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .relatedArrows{
+        padding-left: 0;
+    }
+    .proj_details.leftPos{
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+    .service_details_area{
+        padding-right: 0;
+        margin-bottom: 60px;
+    }
+    .entry_title{
+        font-size: 60px;
+        line-height: 66px;
+    }
+    .offset-2{
+        margin-left: 0;
+    }
+    .product_decp{
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .ps_img img{
+        width: 100%;
+        height: auto;
+    }
+    .dl-menu__wrap ul li{
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .footer__contacts{
+        padding-left: 15px;
+    }
+    .testimonialSection,
+    .testimonialSection2{
+        overflow: hidden;
+        width: 100vw;
+    }
+    .imgDiv2{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------
+/ 5. Responsive For Mobile Device
+--------------------------------------------------------------------------------------*/
+@media (max-width: 767px){
+    .slider_02 .hermes .tp-arr-allwrapper,
+    .slider_01 .hermes .tp-arr-allwrapper{
+        width: 60px;
+    }
+    .testimonial_item2:after{
+        display: none;
+    }
+    .topbar .col-xl-4{
+        width: 50%;
+        float: left;
+    }
+    .topbar .col-xl-8{
+        width: 50%;
+        float: right;
+    }
+    .topbar:before{
+        width: 60%;
+    }
+    .nav_bar .right_bgs{
+        width: 42%;
+        height: 100%;
+    }
+    .featureSection2{
+        margin-top: -100px;
+    }
+    .info_element {
+        display: none;
+    }
+    .search_element i{
+        display: none;
+    }
+    .search_element input[type="search"]{
+        width: 100%;
+        font-size: 12px;
+    }
+    .logo_02 img{
+        width: 100%;
+        height: auto;
+    }
+    .header_02 .ind_btn_2{
+        margin: 0 -15px 0;
+        display: block;
+    }
+    .topbar_left{
+        display: none;
+    }
+    .topbar_left .info_element{
+        margin-right: 10px;
+    }
+    .topbar_02 .social_and_settings{
+        padding-top: 30px;
+    }
+    .social_and_settings span{
+        float: left;
+    }
+
+    .bigHeading{
+        letter-spacing: 0;
+    }
+
+    .icon_box_01{
+        margin-bottom: 30px;
+    }
+    .abc_left{
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    .aboutCompanys h2{
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .abc_right{
+        padding: 0 15px;
+    }
+    .ab_btn{
+        left: 0;
+        right: auto;
+    }
+    .aboutCompanys{
+        padding-bottom: 100px;
+    }
+    .cta_left h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .text-right.leftInMobile{
+        text-align: left !important;
+    }
+    .worksSlider .owl-nav{
+        position: relative;
+        top: auto;
+    }
+    .funfactSection .pdl115{
+        padding-left: 15px;
+    }
+    .funfactSection .mrm110px{
+        margin-right: -15px;
+    }
+    .testimonial_item2{
+        padding-right: 0;
+    }
+    .imgDiv2.blockInMobile img{
+        width: 100%;
+        height: auto;
+    }
+    .blogItem3{
+        margin-bottom: 30px;
+    }
+    #backtotop{
+        right: 15px;
+        bottom: 15px;
+    }
+    .footer_02 .widget{
+        margin-bottom: 40px;
+    }
+    .footer_02 .widget.pdl58, .footer_02 .widget.pdl20{
+        padding-left: 0;
+    }
+    .mrm15{
+        margin-right: 0;
+    }
+    .about_us_content{
+        padding-left: 0;
+    }
+    .sec_title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .filterMenu ul li.all{
+        width: 100%;
+        text-align: center;
+    }
+    .filterMenu ul li{
+        float: left;
+    }
+    .emptyStyle.filterMenu ul li{
+        margin-bottom: 20px;
+        padding-right: 20px;
+    }
+    .funfactSection .icon_box_02{
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    .serviceSlider .owl-nav{
+        top: -80px;
+    }
+    .icon_box_03{
+        padding-left: 30px;
+    }
+    .whyChooseUsContent{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .whyChooseUsContent .sec_title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .testimonialSliderHolder{
+        margin-top: 50px;
+    }
+    .testimonial_item{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .blogItem2,
+    .bi_details{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .bi_meta span{
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .footer_01 .widget{
+        margin-bottom: 40px;
+    }
+    .pdl65,
+    .pdl45{
+        padding-left: 15px;
+    }
+    .fof_contents{
+        padding-top: 30px;
+    }
+    .fof_contents h1{
+        font-size: 100px;
+    }
+    .fof_contents h2{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .page_banner h2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .aboutImg{
+        padding-right: 0;
+    }
+    .yearsofexp{
+        right: -15px;
+    }
+    .aboutImg .i2{
+        margin-left: 0;
+        margin-top: -80px;
+    }
+    .aboutDescs{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .skillHolders{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .teamslider2 .owl-nav{
+        top: -80px;
+    }
+    .cta_left_02{
+        padding-left: 0;
+        text-align: center;
+    }
+    .cta_left_02 i{
+        position: relative;
+        left: auto;
+        margin-bottom: 50px;
+    }
+    .pdt29{
+        padding-top: 50px;
+        text-align: center !important;
+    }
+    .history_box{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .featureSlider{
+        margin: 0;
+    }
+    .woocommerce-shipping-fields {
+        margin-bottom: 50px;
+    }
+    .woocommerce-checkout-review-order{
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .woocommerce-checkout-review-order tbody tr td{
+        font-size: 14px;
+    }
+    .cart_table tbody tr td.product-thumbnail .thumbimgs{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .cart_table tbody tr td.product-thumbnail{
+        width: 60px;
+        padding-left: 0px;
+    }
+    .quantityd{
+        width: 60px;
+        height: 40px;
+    }
+    .quantityd button.qtyBtn{
+        left: 7px;
+    }
+    .quantityd button.qtyBtn.btnPlus{
+        right: 7px;
+    }
+    .cart_table tbody tr td.product-title a.itemtitle{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .cart_table tbody tr td.product-subtotal,
+    .cart_table tbody tr td.product-price span.amount{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .cart_table thead tr th.product-subtotal,
+    .cart_table tbody tr td.product-subtotal{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .cart_table tbody tr td.product-remove{
+        padding-right: 0;
+    }
+    .update_cart{
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .cart_table tbody tr td.actions .coupon_submit{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .cart_table tbody tr td.actions .input-text{
+        width: 100%;
+    }
+    .cart_totals table tr th{
+        width: 140px;
+        padding-left: 15px;
+    }
+    .cart_totals h2{
+        padding-left: 15px;
+    }
+    .gmap iframe{
+        height: 400px;
+    }
+    .pdb90 .pdl45 {
+        padding-top: 50px;
+    }
+    .icon_box_05{
+        margin-bottom: 30px;
+    }
+    .icon_box_05.ib5_left .ib5_inner{
+        padding-left: 80px;
+        padding-right: 10px;
+    }
+    .newsDetails{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .newsDetails h2.ndTitle{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    blockquote{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+    blockquote:after{
+        left: 0;
+        right: 0;
+        top: 15px;
+        margin: 0 auto;
+    }
+    .ndShare{
+        text-align: left !important;
+        margin-top: 35px;
+    }
+    .ndShare a:first-of-type{
+        margin-left: 0;
+    }
+    .ndPaginations:after{
+        display: none;
+    }
+    .ndPaginations .col-xl-6{
+        width: 50%;
+    }
+    .pagin h3{
+        font-size: 20px;
+    }
+    .pagin strong{
+        font-size: 12px;
+    }
+    .commentForm,
+    .ndAuthorInner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ndComment{
+        padding-left: 0;
+    }
+    .ndComment img{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .sidebar_2{
+        margin-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sidebar_2.inLeft{
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sidebar_2 .widget{
+        margin-bottom: 80px;
+    }
+    .offset-1{
+        margin-left: 0;
+    }
+    .ind_pagination a, .ind_pagination span{
+        margin-bottom: 10px;
+    }
+    .folioHover_03 h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .proj_details.rightPos{
+        padding-left: 0;
+    }
+    .rel_btns{
+        padding-left: 0;
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    .relatedArrows{
+        padding-left: 0;
+        text-align: center;
+    }
+    .pdt25{
+        text-align: center !important;
+        padding-top: 50px;
+    }
+    .sidebar_1{
+        margin-bottom: 50px;
+    }
+    .sidebar_1 .widget .widget_title{
+        padding-left: 30px;
+    }
+    .sidebar_1 .widget ul li{
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+    .hqw_content,
+    .allLatestWorks,
+    .allBrouchers{
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+    .service_details_area{
+        padding-right: 0;
+        margin-bottom: 60px;
+    }
+    .entry_title{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .sda_tags .icon_box_04{
+        display: block;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+    .results{
+        display: none;
+    }
+    .shopAccess{
+        display: block;
+    }
+    .sorts select,
+    .searchForms2 input{
+        width: 100%;
+    }
+    .sorts{
+        margin: 15px 0;
+    }
+    .productSlide .carousel-indicators{
+        left: 15px;
+    }
+    .ps_img img{
+        width: 100%;
+        height: auto;
+    }
+    .productSlide .carousel-indicators li{
+        width: 85px;
+    }
+    .productSlide .carousel-indicators li img{
+        width: 100%;
+        height: 100%;
+    }
+    .product_decp{
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .pd_rating ,
+    .text_meta{
+        margin-bottom: 30px;
+    }
+    .pd_details_meta .quantityd{
+        height: 50px;
+        width: 75px;
+    }
+    .add_to_car_btn{
+        min-width: 175px;
+    }
+    .social_shares{
+        margin-top: 20px;
+    }
+    .offset-2{
+        margin-left: 0;
+    }
+    .adinfo ul li{
+        width: 100%;
+    }
+    .relatedNavs{
+        float: left;
+        margin-top: 30px;
+    }
+
+    .footer__contacts{
+        text-align: center;
+        padding: 0 15px;
+        width: 100%;
+        bottom: 55px;
+    }
+    .footer__contacts li{
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .popUp_social{
+        bottom: 10px;
+        left: 0;
+        margin: 0 auto;
+        text-align: center !important;
+    }
+    .popUp_social a{
+        width: 35px;
+        height: 35px;
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .video_01 .vp{
+        width: 100%;
+    }
+    .slider_01 .rev_slider .tp-caption.textRes br{
+        /*        display: block;*/
+    }
+    .straceImg, .straceImg2, .video_02, .stretchBGDiv, .imgCarousel, .imgCarousel .carousel-inner, .imgCarousel .carousel-item{
+        min-height: 100vw;
+    }
+
+    .testimonialSection, .testimonialSection2{
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .tp-caption .ind_btn{
+        position: relative;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        background: transparent;
+        display: inline-block;
+        color: #FFF;
+        height: 60px !important;
+        min-width: 200px !important;
+        padding: 25px 25px !important;
+        text-align: center !important;
+        line-height: .9 !important;
+        margin-bottom: 6px !important;
+    }
+    .tp-caption.textRes{
+        white-space: normal !important;
+        padding: 0 20px;
+        word-break: break-word !important;
+    }
+}
