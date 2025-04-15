@@ -1,13 +1,3 @@
-/*
-Theme Name: Industing
-Theme URI: http://themewar.com/html/industing
-Author: themewar
-Author URI: http://themewar.com/
-Description: Industing - Industry & Factory Business HTML5 Template
-Version: 1.0
-License:
-License URI:
-*/
 /*=======================================================================
 [Table of contents]
 =========================================================================
@@ -56,6 +46,15 @@ License URI:
 43. 404 Page
 44. 404 Page
 */
+
+
+/*------------------------------------------------------------------------------
+/ 0. Root
+------------------------------------------------------------------------------*/
+
+:root{
+    overflow-x: hidden;
+}
 
 /*------------------------------------------------------------------------------
 / 1. Topbar
@@ -960,6 +959,7 @@ License URI:
 .slider_01 .tp-bannertimer {
     display: none !important;
 }
+
 
 /*------------------------------------------------------------------------------
 / 4. About Us
