@@ -55,6 +55,15 @@
 :root{
     overflow-x: hidden;
 }
+.project-km-but{
+    background-color: #06163a;
+    border:2px solid #06163a; 
+    padding: 10px 20px;
+    color:white;
+}
+.project-km-but:hover{
+    background-color: white;
+}
 
 /*------------------------------------------------------------------------------
 / 1. Topbar
