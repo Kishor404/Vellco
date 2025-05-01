@@ -65,6 +65,7 @@
     background-color: white;
 }
 
+
 /*------------------------------------------------------------------------------
 / 1. Topbar
 ------------------------------------------------------------------------------*/
@@ -77,10 +78,10 @@
 .kreon-font {
     font-family: "Kreon", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     color: white;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 16pt;
     text-align: center;
 }
 
@@ -100,6 +101,7 @@
 .topbar .header-container {
     position: relative;
     z-index: 2;
+    margin-left: 50px;
 }
 
 .logo {
@@ -109,7 +111,7 @@
 }
 
 .logo img {
-    height: 51px;
+    height: 55px;
     width: auto;
     max-width: 100%;
 }
