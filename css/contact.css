@@ -1,0 +1,211 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f8f9fd;
+  overflow-x: hidden;
+}
+
+
+/* Container for card */
+.container1 {
+  max-width: 1000px;
+  margin: -120px auto 40px; /* Pull it up to overlap header */
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.contact-header1 {
+  position: relative;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 23, 55, 0.7), rgba(0, 23, 55, 0.7)),
+    url('images/slider/1.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.contact-header1 h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+.contact-header1 p {
+  font-size: 18px;
+  color: #f0f0f0;
+}
+/* Contact Card */
+.contact-card1 {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+}
+/* Left Section */
+.contact-left1 {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+.contact-left1 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-left1 p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.contact-item1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+
+
+.contact-left1 h3 {
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.contact-left1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-left1 a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.social-icons1 {
+  margin-top: 30px;
+}
+
+.contact-item1 .icon {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #3F51B5; /* Updated icon color */
+  margin-top: 5px;
+}
+
+.social-icons1 a {
+  color: #3F51B5; /* Updated social icon color */
+  font-size: 18px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* Right Section */
+.contact-right1 {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.contact-right1 h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #222;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group1 label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.full1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 14px;
+  background-color: #3F51B5; /* Updated color */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2C3A99; /* A slightly darker shade for hover */
+}
+
+
+/* Map */
+.map-container1 {
+  width: 100vw;
+  margin-top: 40px;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
+  margin-bottom: -5px;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-card1 {
+    flex-direction: column;
+  }
+
+  .row1 {
+    flex-direction: column;
+  }
+}
