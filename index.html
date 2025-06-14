@@ -52,162 +52,28 @@
     </div>
     <!-- Preloading -->
 
-    <section class="topbar">
-        <div class="header-container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-3 noPadding">
-                    <div class="logo text-left">
-                        <a href="index.html" class="kreon-font">
-                            <!-- <img src="images/vellco_logo.jpg" alt="MycroLinks" id="logo-image"> -->
-                            <span id="logo-text"></span>
-                        </a>
-                        <script>
-                            function updateLogoText() {
-                                var logoText = document.getElementById('logo-text');
-                                if (window.innerWidth < 992) {
-                                    logoText.innerHTML = '';
-                                } else {
-                                    logoText.innerHTML = 'Gracerk Contracting India Pvt Ltd';
-                                }
-                            }
+    
+    <!-- NAVBAR -->
+     <section class="hz-nav">
 
-                            window.addEventListener('resize', updateLogoText);
-                            window.addEventListener('load', updateLogoText);
-                        </script>
-                    </div>
-                </div>
-                <div class="col-xl-8 col-lg-8 col-md-9">
-                    <div class="topbar_right text-right">
-                        <div class="topbar_element info_element">
-                            <i class="fa fa-envelope"></i>
-                            <h5>Email Address</h5>
-                            <p><a href="info@vellco.co.in">info@vellco.co.in</a></p>
-                        </div>
-                        <div class="topbar_element info_element">
-                            <i class="fa fa-phone"></i>
-                            <h5>Phone Number</h5>
-                            <p><a href="tel:+919788990460">+91-9788990460</a></p>
-                        </div>
-                        <div class="topbar_element settings_bar">
-                            <a href="#" class="hamburger" id="open-overlay-nav"><i class="fal fa-bars"></i></a>
-                        </div>
-                    </div>
-                </div>
+        <div class="hz-nav-l">
+            <div class="hz-nav-l-cont">
+                <img src="./images/vellco_logo.jpg">
             </div>
         </div>
-    </section>
-
-    <section class="nav_bar" id="fix_nav">
-        <div class="header-container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-9">
-                    <div class="mobileMenuBar">
-                        <a href="javascript: void(0);"><span>Menu</span><i class="fa fa-bars"></i></a>
-                    </div>
-                    <nav class="mainmenu">
-                        <ul>
-                            <li class="current-menu-item">
-                                <a href="/index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="javascript:scrollToSection('servicesSection');">Services</a>
-                            </li>
-                            <li>
-                                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
-                            </li>
-                            <li>
-                                <a href="/solution.html">Solutions</a>
-                            </li>
-                            <li>
-                                <a href="/project.html">Projects</a>
-                            </li>
-                            <li>
-                                <a href="/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-xl-4 col-lg-3">
-                    <div class="top_social text-right">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+        <div class="hz-nav-r">
+            <div>
+                <a href="/index.html">Home</a>
+                <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                <a href="javascript:scrollToSection('projectSection');">Projects</a>
+                <a href="/contact.html">Contact</a>
             </div>
         </div>
-        <span class="right_bgs"></span>
-    </section>
 
-<!-- Overlay Menu -->
-<div class="popup popup__menu">
-    <div class="header-container mobileContainer">
-        <div class="row">
-            <div class="col-lg-8 text-left">
-                <div class="popup_logos">
-                    <a href="index.html"><img src="images/vellco_logo.jpg" alt=""></a>
-                </div>
-            </div>
-            <div class="col-lg-4 text-right">
-                <a href="" id="close-popup" class="close-popup"></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="popup-inner">
-                    <div class="dl-menu__wrap dl-menuwrapper">
-                        <ul class="dl-menu dl-menuopen">
-                            <li>
-                                <a href="/index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="javascript:scrollToSection('servicesSection');">Services</a>
-                            </li>
-                            <li>
-                                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
-                            </li>
-                            <li>
-                                <a href="/solution.html">Solutions</a>
-                            </li>
-                            <li>
-                                <a href="javascript:scrollToSection('projectSection');">Projects</a>
-                            </li>
-                            <li>
-                                <a href="/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <script>
-
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
-                <ul class="footer__contacts">
-                    <li>Phone: <a href="tel:+919788990460">+91-9788990460</a></li>
-                    <li>Email: <a href="info@vellco.co.in">info@vellco.co.in</a></li>
-                    <li>Address: 
-                        No. 9, Old No. 13 A, 1st Street, Kolathur,<br>
-                        Tiruvallur, Ambattur, Tamil Nadu, India, 600099</li>
-                </ul>
-            </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12 col-xs-12">
-                <div class="foo_social popUp_social text-right">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-behance"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /Overlay Menu -->
-
+     </section>
+    <!-- NAVBAR END -->
 
     <section class="slider_01">
         <div class="rev_slider_wrapper">
@@ -358,7 +224,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center box_shadow">
                         <i class="bigger icofont-building-alt"></i>
                         <i class="smaller icofont-building-alt"></i>
@@ -369,7 +235,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center box_shadow">
                         <i class="bigger icofont-snow-alt"></i>
                         <i class="smaller icofont-snow-alt"></i>
@@ -380,10 +246,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center box_shadow">
                         <i class="bigger icofont-worker"></i> <!-- updated icon -->
-        <i class="smaller icofont-worker"></i> <!-- updated icon -->
+                        <i class="smaller icofont-worker"></i> <!-- updated icon -->
                         <span></span>
                         <h3>Civil Contracting</h3>
                         <p>
@@ -393,6 +259,10 @@
                 </div>
             </div>
         </div>
+        <!-- BUTTON -->
+                <div class="col-xl-12 text-center">
+                    <a href="/services.html" class="project-km-but">Load More</a>
+                </div>
     </section>
     
     
@@ -453,6 +323,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
     
 
@@ -469,7 +340,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-recycle"></i>
                         <i class="smaller icofont-recycle"></i>
@@ -480,7 +351,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-energy-oil"></i>
                         <i class="smaller icofont-energy-oil"></i>
@@ -491,7 +362,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-fire-burn"></i>
                         <i class="smaller icofont-fire-burn"></i>
@@ -502,7 +373,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-safety"></i>
                         <i class="smaller icofont-safety"></i>
@@ -513,7 +384,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-heart-beat"></i>
                         <i class="smaller icofont-heart-beat"></i>
@@ -524,7 +395,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-users-social"></i>
                         <i class="smaller icofont-users-social"></i>
@@ -537,6 +408,10 @@
                 </div>
             </div>
         </div>
+        <!-- BUTTON -->
+                <div class="col-xl-12 text-center">
+                    <a href="/solution.html" class="project-km-but">Load More</a>
+                </div>
     </section>
     
     <section class="commonSection projectPage" id="projectSection">
@@ -624,13 +499,13 @@
     <div class="container">
       <div class="row">
         <!-- About Section -->
-        <div class="col-xl-3 col-md-6 col-lg-3 noPaddingRight">
+        <div style="width: 50%;">
           <aside class="widget">
             <div class="about_widget">
               <a href="index.html">
                 <img src="images/vellco_logo.jpg" alt="" class="footer_logo" />
               </a>
-              <p class="about-description">
+              <p class="about-description" style="text-align: justify;">
                 <strong>VELLCO (Gracerk Contracting India Pvt Ltd)</strong> is a trusted name in MEP, HVAC, and Civil Contracting. We are committed to quality, safety, sustainability, and customer satisfaction across all our infrastructure solutions.
               </p>
               <div class="caller-card">
@@ -649,7 +524,6 @@
           <aside class="widget">
             <h3 class="widget_title">Important Links<span>.</span></h3>
             <ul class="footer-links">
-              <li><a href="javascript:scrollToSection('visionSection');">Vision & Mission</a></li>
               <li><a href="javascript:scrollToSection('servicesSection');">Our Services</a></li>
               <li><a href="javascript:scrollToSection('commitmentsSection');">Our Commitments</a></li>
               <li><a href="javascript:scrollToSection('projectSection');">Projects</a></li>
@@ -664,23 +538,20 @@
             <h3 class="widget_title">Core Services<span>.</span></h3>
             <div class="recentServices">
               <div class="serviceItem">
-                <img class="rounded-border-image" src="images/widget/1.jpg" alt="MEP Contracting" />
                 <div class="serviceText">
-                  <h5><a href="#">MEP Contracting</a></h5>
+                  <h5><a href="#">-- MEP Contracting</a></h5>
                   <span>Mechanical, Electrical & Plumbing Solutions</span>
                 </div>
               </div>
               <div class="serviceItem">
-                <img class="rounded-border-image" src="images/widget/2.jpg" alt="HVAC Services" />
                 <div class="serviceText">
-                  <h5><a href="#">HVAC Services</a></h5>
+                  <h5><a href="#">-- HVAC Services</a></h5>
                   <span>Climate Control for Comfort & Efficiency</span>
                 </div>
               </div>
               <div class="serviceItem">
-                <img class="rounded-border-image" src="images/widget/3.jpg" alt="Civil Contracting" />
                 <div class="serviceText">
-                  <h5><a href="#">Civil Contracting</a></h5>
+                  <h5><a href="#">-- Civil Contracting</a></h5>
                   <span>Infrastructure, Roads & Buildings</span>
                 </div>
               </div>
@@ -744,7 +615,6 @@
     <script>
 
         function scrollToSection(sectionName) {
-            document.getElementById('close-popup').click();
             $('html, body').animate({
                 scrollTop: $('#' + sectionName).offset().top
             }, 1000);

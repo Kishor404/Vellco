@@ -48,6 +48,60 @@
 */
 
 
+.hz-nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 10px 5px 10px 5px rgba(150, 150, 150, 0.2);
+    -moz-box-shadow: 10px 5px 10px 5px rgba(150, 150, 150, 0.2);
+}
+
+.hz-nav-l{
+    width: 40%;
+    height: 70%;
+}
+.hz-nav-l div{
+    height: 100%;
+}
+.hz-nav-l div img{
+    height: 100%;
+}
+.hz-nav-r{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hz-nav-r div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hz-nav-r div a{
+    font-size: 12pt;
+    color: #3c5b92;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.hz-nav-r div a:hover{
+    color: #fcdb03;
+}
+
+
+
 /*------------------------------------------------------------------------------
 / 0. Root
 ------------------------------------------------------------------------------*/
@@ -63,6 +117,12 @@
 }
 .project-km-but:hover{
     background-color: white;
+}
+.solution_oos{
+    height: 450px;
+}
+.solution_oos div{
+    height: 400px;
 }
 
 

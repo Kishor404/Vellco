@@ -39,12 +39,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
     <!-- Favicon Icon -->
     <link rel="icon" type="image/jpg" href="images/vellco_logo.jpg" />
-    
-
 </head>
 
 <body>
-
     <!-- Preloading -->
     <div class="preloader text-center">
         <div class="la-ball-scale-multiple la-2x">
@@ -77,68 +74,57 @@
      </section>
     <!-- NAVBAR END -->
 
-    <section class="commonSection graySection" id="solutionsSection">
+    
+
+
+    <section class="commonSection graySection" id="servicesSection"> 
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-center">
-                    <h6 class="sub_title gray_sub_title">What We Do</h6>
+                    <h6 class="sub_title gray_sub_title">Our Expertise</h6>
                     <h2 class="sec_title with_bar">
-                        <span><i class="fal fa-lightbulb-on"></i><span>Innovative Solutions</span></span>
+                        <span><i class="fal fa-tools"></i><span>Our Services</span></span>
                     </h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12">
-                    <div class="icon_box_01 text-center">
-                        <i class="bigger icofont-code-alt"></i>
-                        <i class="smaller icofont-code-alt"></i>
+                <div class="col-lg-4 col-md-12 solution_oos">
+                    <div class="icon_box_01 text-center box_shadow">
+                        <i class="bigger icofont-building-alt"></i>
+                        <i class="smaller icofont-building-alt"></i>
                         <span></span>
-                        <h3>Software Development</h3>
+                        <h3>MEP Contracting</h3>
                         <p>
-                            Tailoring cutting-edge.
+                            Expertise in designing, installing, and maintaining mechanical, electrical, and plumbing systems for residential, commercial, and industrial buildings.
                         </p>
-                        <ul>
-                            <li>Agile development practices</li>
-                            <li>Customizable solutions</li>
-                            <li>Post-launch support</li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="icon_box_01 text-center">
-                        <i class="bigger icofont-cloud-upload"></i>
-                        <i class="smaller icofont-cloud-upload"></i>
+                <div class="col-lg-4 col-md-12 solution_oos">
+                    <div class="icon_box_01 text-center box_shadow">
+                        <i class="bigger icofont-snow-alt"></i>
+                        <i class="smaller icofont-snow-alt"></i>
                         <span></span>
-                        <h3>Hosting & DevOps</h3>
+                        <h3>HVAC Services</h3>
                         <p>
-                            Streamlining deployment and operations.
+                            Specialized in the design, installation, and maintenance of heating, ventilation, and air conditioning systems.
                         </p>
-                        <ul>
-                            <li>Scalable hosting solutions</li>
-                            <li>Continuous integration & deployment</li>
-                            <li>Database management and optimization</li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="icon_box_01 text-center">
-                        <i class="bigger icofont-live-support"></i>
-                        <i class="smaller icofont-live-support"></i>
+                <div class="col-lg-4 col-md-12 solution_oos">
+                    <div class="icon_box_01 text-center box_shadow">
+                        <i class="bigger icofont-worker"></i> <!-- updated icon -->
+                        <i class="smaller icofont-worker"></i> <!-- updated icon -->
                         <span></span>
-                        <h3>Support & Maintenance</h3>
+                        <h3>Civil Contracting</h3>
                         <p>
-                            Ensuring the reliability and security.
+                            Construction and maintenance of infrastructure projects such as roads, bridges, and buildings.
                         </p>
-                        <ul>
-                            <li>24/7 technical support</li>
-                            <li>Regular software updates</li>
-                            <li>Security monitoring and compliance</li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="copyright_section">
         <div class="container">
             <div class="row">
@@ -150,6 +136,10 @@
             </div>
         </div>
     </section>
+    
+
+
+   
 
     <a href="#" id="backtotop"><i class="fal fa-angle-double-up"></i></a>
     <!-- Include All JS -->
@@ -179,6 +169,7 @@
     <script src="js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="js/extensions/revolution.extension.video.min.js"></script>
+    <script src="js/project.section.pagination.js"></script>
     <script src="js/theme.js"></script>
     <!-- Include All JS -->
     <script>
@@ -189,6 +180,23 @@
                 scrollTop: $('#' + sectionName).offset().top
             }, 1000);
         }
+
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'sendmail.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onload = function () {
+                if (this.status == 200 && this.responseText == 'Success') {
+                    alert('Mail sent successfully');
+                } else {
+                    alert('Mail sending failed, please try again later.');
+                }
+            };
+
+            var formData = new FormData(event.target);
+            var params = new URLSearchParams(formData).toString();
+            xhr.send(params);
+        });
     </script>
 </body>
-</html>
