@@ -16,6 +16,18 @@
  13. Color Preset
  14. Preloder
  */
+
+function toggleMenu() {
+  const menu = document.querySelector('.hz-nav-mobile');
+  menu.classList.toggle('show');
+}
+document.querySelectorAll('.hz-nav-mobile a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.hz-nav-mobile').classList.remove('show');
+  });
+});
+
+
 (function ($) {
   "use strict";
 
