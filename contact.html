@@ -37,6 +37,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- Favicon Icon -->
     <link rel="icon" type="image/jpg" href="images/vellco_logo.jpg" />
 
@@ -57,7 +58,6 @@
     <!-- Preloading -->
 
     <!-- NAVBAR -->
-     <div style="height: 5vh;"></div>
      <section class="hz-nav">
 
         <div class="hz-nav-l">
@@ -68,11 +68,25 @@
         <div class="hz-nav-r">
             <div>
                 <a href="/index.html">Home</a>
-                <a href="/services.html">Services</a>
-                <a href="/solution.html">Solutions</a>
-                <a href="/project.html">Projects</a>
+                <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                <a href="javascript:scrollToSection('projectSection');">Projects</a>
                 <a href="/contact.html">Contact</a>
             </div>
+        </div>
+
+        <div class="hz-nav-mobile-icon">
+            <i class="fas fa-bars" onclick="toggleMenu()"></i>
+        </div>
+        <div class="hz-nav-mobile">
+            
+                <a href="/index.html">Home</a>
+                <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                <a href="javascript:scrollToSection('projectSection');">Projects</a>
+                <a href="/contact.html">Contact</a>
         </div>
 
      </section>

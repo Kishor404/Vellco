@@ -140,6 +140,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    padding-right: 10px;
 }
 
 
@@ -170,11 +171,17 @@
   .hz-nav-mobile-icon i{
     font-size: 18px;
 }
+.hz-nav-mobile a{
+    font-size: 10pt;
+}
 
 }
 @media (max-width: 400px) {
   .hz-nav {
     height:7vh;
+  }
+  .hz-nav-mobile{
+    top:7vh;
   }
   .hz-nav-mobile-icon i{
     font-size: 16px;

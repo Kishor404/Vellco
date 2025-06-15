@@ -37,6 +37,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- Favicon Icon -->
     <link rel="icon" type="image/jpg" href="images/vellco_logo.jpg" />
     
@@ -56,7 +57,6 @@
     <!-- Preloading -->
 
     <!-- NAVBAR -->
-     <div style="height: 5vh;"></div>
      <section class="hz-nav">
 
         <div class="hz-nav-l">
@@ -67,11 +67,25 @@
         <div class="hz-nav-r">
             <div>
                 <a href="/index.html">Home</a>
-                <a href="/services.html">Services</a>
-                <a href="/solution.html">Solutions</a>
-                <a href="/project.html">Projects</a>
+                <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                <a href="javascript:scrollToSection('projectSection');">Projects</a>
                 <a href="/contact.html">Contact</a>
             </div>
+        </div>
+
+        <div class="hz-nav-mobile-icon">
+            <i class="fas fa-bars" onclick="toggleMenu()"></i>
+        </div>
+        <div class="hz-nav-mobile">
+            
+                <a href="/index.html">Home</a>
+                <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                <a href="javascript:scrollToSection('projectSection');">Projects</a>
+                <a href="/contact.html">Contact</a>
         </div>
 
      </section>
@@ -81,64 +95,83 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-center">
-                    <h6 class="sub_title gray_sub_title">What We Do</h6>
+                    <h6 class="sub_title gray_sub_title">Our Focus</h6>
                     <h2 class="sec_title with_bar">
-                        <span><i class="fal fa-lightbulb-on"></i><span>Innovative Solutions</span></span>
+                        <span><i class="fal fa-lightbulb-on"></i><span>Sustainable & Safe Solutions</span></span>
                     </h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
-                        <i class="bigger icofont-code-alt"></i>
-                        <i class="smaller icofont-code-alt"></i>
+                        <i class="bigger icofont-recycle"></i>
+                        <i class="smaller icofont-recycle"></i>
                         <span></span>
-                        <h3>Software Development</h3>
+                        <h3>Waste Management & Recycling</h3>
                         <p>
-                            Tailoring cutting-edge.
+                            We reduce construction waste through optimized planning and encourage recycling and reuse of materials to promote sustainability.
                         </p>
-                        <ul>
-                            <li>Agile development practices</li>
-                            <li>Customizable solutions</li>
-                            <li>Post-launch support</li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
-                        <i class="bigger icofont-cloud-upload"></i>
-                        <i class="smaller icofont-cloud-upload"></i>
+                        <i class="bigger icofont-energy-oil"></i>
+                        <i class="smaller icofont-energy-oil"></i>
                         <span></span>
-                        <h3>Hosting & DevOps</h3>
+                        <h3>Energy & Resource Conservation</h3>
                         <p>
-                            Streamlining deployment and operations.
+                            Our projects prioritize energy efficiency and water conservation using advanced MEP and HVAC solutions.
                         </p>
-                        <ul>
-                            <li>Scalable hosting solutions</li>
-                            <li>Continuous integration & deployment</li>
-                            <li>Database management and optimization</li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 solution_oos">
                     <div class="icon_box_01 text-center">
-                        <i class="bigger icofont-live-support"></i>
-                        <i class="smaller icofont-live-support"></i>
+                        <i class="bigger icofont-fire-burn"></i>
+                        <i class="smaller icofont-fire-burn"></i>
                         <span></span>
-                        <h3>Support & Maintenance</h3>
+                        <h3>Emission Control & Pollution Prevention</h3>
                         <p>
-                            Ensuring the reliability and security.
+                            We implement pollution control strategies using low-emission equipment and strict environmental guidelines.
                         </p>
-                        <ul>
-                            <li>24/7 technical support</li>
-                            <li>Regular software updates</li>
-                            <li>Security monitoring and compliance</li>
-                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 solution_oos">
+                    <div class="icon_box_01 text-center">
+                        <i class="bigger icofont-safety"></i>
+                        <i class="smaller icofont-safety"></i>
+                        <span></span>
+                        <h3>Safety Practices & Risk Management</h3>
+                        <p>
+                            We conduct regular risk assessments and safety drills, ensuring compliance with health and safety standards.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 solution_oos">
+                    <div class="icon_box_01 text-center">
+                        <i class="bigger icofont-heart-beat"></i>
+                        <i class="smaller icofont-heart-beat"></i>
+                        <span></span>
+                        <h3>Employee Health & Wellness</h3>
+                        <p>
+                            Our health programs include ergonomic workspaces, mental health support, and proactive health awareness.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 solution_oos">
+                    <div class="icon_box_01 text-center">
+                        <i class="bigger icofont-users-social"></i>
+                        <i class="smaller icofont-users-social"></i>
+                        <span></span>
+                        <h3>Stakeholder & Community Engagement</h3>
+                        <p>
+                            We collaborate with clients and communities to enhance awareness and responsibility toward environmental and safety practices.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <section class="copyright_section">
         <div class="container">
             <div class="row">
