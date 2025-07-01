@@ -1,0 +1,129 @@
+/* ISO Section */
+.iso-section {
+  background: #f4f9fe;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.iso-title {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 50px;
+  color: #0d2a60;
+}
+
+.iso-title i {
+  color: #ff9800;
+  margin-right: 10px;
+}
+
+/* Container for image and cards */
+.iso-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-direction: row; /* Default: horizontal */
+}
+
+/* ISO Illustration */
+.iso-image {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  text-align: center;
+  order: 0; /* image first for mobile */
+}
+
+.iso-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  animation: zoomIn 1.2s ease forwards;
+  transform: scale(0.95);
+  opacity: 0;
+}
+
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ISO Cards */
+.iso-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.iso-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 6px solid #1d3e87;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+  animation: fadeSlideScale 1s ease forwards;
+}
+
+.iso-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1d3e87;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iso-card h2 i {
+  color: #ff9800;
+}
+
+.iso-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Animation delays */
+.delay-0 { animation-delay: 0.2s; }
+.delay-1 { animation-delay: 0.5s; }
+.delay-2 { animation-delay: 0.8s; }
+
+@keyframes fadeSlideScale {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ✅ Responsive for tablets & phones */
+@media (max-width: 992px) {
+  .iso-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iso-image {
+    order: -1; /* move image to top */
+    max-width: 90%;
+  }
+
+  .iso-title {
+    font-size: 2rem;
+  }
+
+  .iso-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .iso-card p {
+    font-size: 0.95rem;
+  }
+}
